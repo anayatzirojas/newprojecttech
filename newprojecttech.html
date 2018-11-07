@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> New Project  </title>
+		
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+
+		html, body {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			background: #dc7474;
+		}
+
+		.container {
+			background:#dc7474;
+			min-height: 100vh;
+			
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr ;
+			grid-template-rows: 1fr 1fr 1fr ;
+			grid-template-areas: 
+				"p1 p2 p3 p4  "
+				"p5 p6 p7 p8"
+				"p9 p10 p11 p12";
+
+				
+			grid-gap: 10px;
+			padding: 10px;
+		}
+
+		.item {
+			background: blue;
+			min-height: 100px;
+			min-width: 100px;
+		}
+
+		#photo1 {
+			grid-area: p1;
+			background: url(img1.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+
+		#photo2 {
+			grid-area: p2;
+			background: url(img2.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+
+		#photo3 {
+			grid-area: p3;
+			background: url(img3.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+
+		#photo4 {
+			grid-area: p4;
+			background: url(img4.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+
+		#photo5 {
+			grid-area: p5;
+			background: url(img5.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+
+		#photo6 {
+			grid-area: p6;
+			background: url(img6.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+
+
+		#photo7 {
+			grid-area: p7;
+			background: url(img7.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+
+
+		#photo8 {
+			grid-area: p8;
+			background: url(img8.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+		
+		#photo9{
+			grid-area: p9;
+			background: url(img9.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+		#photo10{
+			grid-area: p10;
+			background: url(img10.jpg);
+			background-size: cover;
+			background-position: center;	
+		}
+		
+		#photo11{
+			grid-area: p11;
+			background: url(img11.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+
+		
+		#photo12{
+			grid-area: p12;
+			background: url(img12.jpg);
+			background-size: cover;
+			background-position: center;
+		}
+
+
+	</style>
+
+
+
+	
+</head>
+<body>
+<div class="container">
+		<div class="item" id="photo1">
+		</div>
+
+		<div class="item" id="photo2">
+		</div>
+
+		<div class="item" id="photo3">
+		</div>
+
+		<div class="item" id="photo4">
+		</div>
+
+		<div class="item" id="photo5">
+		</div>
+
+		<div class="item" id="photo6">
+		</div>
+
+		<div class="item" id="photo7">
+		</div>
+		
+		<div class="item" id="photo8">
+		</div>
+		
+		<div class="item" id="photo9">
+		</div>
+		<div class="item" id="photo10">
+		</div>
+		<div class="item" id="photo11">
+		</div>
+		<div class="item" id="photo12">
+		</div>
+		
+
+	</div>
+
+
+
+
+
+
+</body>
+</html>
